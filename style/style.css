@@ -122,8 +122,9 @@ img
     font-size: 3em;
     line-height: 1; 
     max-width:960px;
-    margin:0 38px;
+    margin:25px auto;
     padding: 60px 10px;
+    
 }
 
 /*Sobre*/
@@ -133,7 +134,7 @@ img
     border-top:2px solid #2c70ff;
     border-bottom:2px solid #2c70ff;
     max-width:960px;
-    margin:0 48px;
+    margin: 48px auto;
     padding: 60px 0;
     display: flex;
     
@@ -168,4 +169,17 @@ img
     line-height: 1.6;
     margin-bottom:1em;
 
+}
+
+/*Produtos*/
+
+.produto
+{
+    max-width:960px;
+    margin:48px auto;
+}
+
+.produto h1
+{
+    font-size:3em;
 }
