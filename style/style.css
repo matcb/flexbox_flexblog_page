@@ -190,3 +190,8 @@ img
     display:flex;
     flex-wrap: wrap;
 }
+
+.produto_item
+{
+    flex:1;
+}
