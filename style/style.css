@@ -217,7 +217,9 @@ img
 {
     font-size:3em;
     color:#a4a4a4;
-    padding:60px 20px;
+    padding:30px 20px;
+    background:#e6e6fa;
+    margin-bottom:10px;
 }
 
 .HTML
@@ -234,3 +236,5 @@ img
 {
     border-top: solid 8px #808080;
 }
+
+/*Precos*/
