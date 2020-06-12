@@ -122,7 +122,7 @@ img
     font-size: 3em;
     line-height: 1; 
     max-width:960px;
-    margin:25px auto;
+    margin:0 48px;
     padding: 60px 10px;
     
 }
@@ -134,7 +134,7 @@ img
     border-top:2px solid #2c70ff;
     border-bottom:2px solid #2c70ff;
     max-width:960px;
-    margin: 48px auto;
+    margin: 0 48px;
     padding: 60px 0;
     display: flex;
     
@@ -176,7 +176,7 @@ img
 .produto
 {
     max-width:960px;
-    margin:48px auto;
+    margin:0 48px;
 }
 
 .produto h1
