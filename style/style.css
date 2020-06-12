@@ -30,7 +30,15 @@ a
 img
 {
     display:block;
-    max-width:100%; /*faz com que a img tenha o máximo de largura e a torna responsiva*/
+    max-width:100%; 
+    /* O max-width:100%;faz com que a img tenha o máximo de largura 
+    do container onde ela estiver inserida
+     e a torna responsiva nesta caso, o flex-container de onde as imagens estarão inseridas
+     tem 960px logo, as imagens ocuparão todo esse espaço.
+     Mais abaixo verá que tem um valor de flex-basis definido(200px). Quando
+     a imagem tiver menos que 200px ela irá quebrar para a próxima linha. Se o valor
+     do flex-basis não fosse definido, ela iria quebrar apenas quando a tela do navegor 
+     estivesse no menor tamanho possível e não quero isso.*/
 }
 
 *
@@ -74,7 +82,6 @@ img
 
 .menu
 {
-    max-width:100%;
     padding:15px 0;
     display:flex;
     flex-wrap:wrap;
@@ -189,11 +196,20 @@ img
 {
     display:flex;
     flex-wrap: wrap;
+
 }
 
 .produto_item
 {
     flex:1 1 200px;
+
+    /* Antes, o valor era flex:1; 
+    Com isso, as imagens se ajustavam para caber na largura do container e nunca quebravam
+    não importando quantas imgs você colocasse assim, anulando o flex-wrap:wrap. Por isso o valor 200px de basis,
+    para que este seja o tamanho máximo em que ela fique na largura do container, menos que isso ela passará
+    para outra linha.
+    */
+    
     margin:10px;
 }
 
@@ -202,4 +218,19 @@ img
     font-size:3em;
     color:#a4a4a4;
     padding:60px 20px;
+}
+
+.HTML
+{
+    border-top: solid 8px #808080;
+}
+
+.CSS
+{
+    border-top: solid 8px #808080;
+}
+
+.JS
+{
+    border-top: solid 8px #808080;
 }
