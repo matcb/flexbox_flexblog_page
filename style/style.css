@@ -8,6 +8,7 @@ body
 {
     font-family: 'Chelsea Market', cursive;
     color:#222222;
+    background:#ffff;
 }
 
 
@@ -238,3 +239,16 @@ img
 }
 
 /*Precos*/
+.preco
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin:30px 48px;
+    max-width:960px;
+}
+
+.preco-item
+{
+    margin:10px;
+    flex:1;
+}
